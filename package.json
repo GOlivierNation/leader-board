@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GOlivierNation/LeaderBoard.git"
+    "url": "git+https://github.com/GOlivierNation/leade-board.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GOlivierNation/LeaderBoard/issues"
+    "url": "https://github.com/GOlivierNation/leade-board/issues"
   },
-  "homepage": "https://github.com/GOlivierNation/LeaderBoard#readme",
+  "homepage": "https://github.com/GOlivierNation/leade-board#readme",
   "devDependencies": {
     "@lhci/cli": "^0.8.2",
     "babel-eslint": "^10.1.0",
