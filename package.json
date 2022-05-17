@@ -1,0 +1,40 @@
+{
+  "name": "leade-board",
+  "version": "1.0.0",
+  "description": "In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I should develop a first working version of the app following a wireframe, but without styling - just focus on functionality.",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "check-linters": "npx lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=. && npx hint . && npx stylelint **/*.{css,scss} && npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOlivierNation/leade-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOlivierNation/leade-board/issues"
+  },
+  "homepage": "https://github.com/GOlivierNation/leade-board#readme",
+  "devDependencies": {
+    "@lhci/cli": "^0.8.2",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
